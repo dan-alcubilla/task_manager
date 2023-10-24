@@ -45,7 +45,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun TaskManagerText(messageTasks: String, messageNice: String, modifier: Modifier = Modifier) {
+fun TaskManagerText(messageTasks: String, messageNice: String) {
     Column(horizontalAlignment = Alignment.CenterHorizontally) {
         Text(
             text = messageTasks,
@@ -61,7 +61,7 @@ fun TaskManagerText(messageTasks: String, messageNice: String, modifier: Modifie
 }
 
 @Composable
-fun TaskManagerImage(messageTasks: String, messageNice: String, modifier: Modifier = Modifier) {
+fun TaskManagerImage(messageTasks: String, messageNice: String) {
     Column(
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally,
